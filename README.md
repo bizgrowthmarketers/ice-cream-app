@@ -1,58 +1,99 @@
-# Parcel boilerplate
+# Ice Cream App
 
-## Скрытые файлы
+Welcome to the Ice Cream App! 🍦 This application allows users to explore a variety of ice cream flavors, manage their favorite selections, and discover new flavors based on their preferences. 
 
-Включите отображение скрытых файлов и папок в проводнике своей операционной системы, иначе вы не
-сможете выбрать и скопировать себе файлы настроек проекта, имена которых начинаются с точки.
+## Features
 
-## Зависимости
+- Browse a wide selection of ice cream flavors.
+- Save and manage your favorite flavors.
+- Search for flavors based on ingredients or names.
+- Get recommendations based on your taste preferences.
 
-На компьютере должена быть установлена LTS-версия [Node.js](https://nodejs.org/en/) со всеми
-дополнительными инструментами кроме **Chocolatey** - его ставить не нужно.
+## Table of Contents
 
-## Перед началом работы
+- [Installation](#installation)
+- [Usage](#usage)
+- [Contributing](#contributing)
+- [License](#license)
+- [About the Developers](#about-the-developers)
 
-Один раз на проект установить все зависимости.
+## Installation
 
-```shell
-npm ci
-```
+To get started with the Ice Cream App, follow these steps:
 
-### Разработка
+1. **Clone the Repository:**
 
-Запустить режим разработки.
+    ```bash
+    git clone https://github.com/bizgrowthmarketers/ice-cream-app.git
+    ```
 
-```shell
-npm run dev
-```
+2. **Navigate to the Project Directory:**
 
-Во вкладке браузера перейти по адресу [http://localhost:1234](http://localhost:1234).
+    ```bash
+    cd ice-cream-app
+    ```
 
-### Деплой
+3. **Install Dependencies:**
 
-Сборка будет автоматически собирать и деплоить продакшен версию проекта на GitHub Pages, в ветку
-`gh-pages`, каждый раз когда обновляется ветка `main`. Например, после прямого пуша или принятого
-пул-реквеста. Для этого необходимо в файле `package.json` отредактировать поле `homepage` и скрипт
-`build`, заменив `имя_пользователя` и `имя_репозитория` на свои.
+    Make sure you have [Node.js](https://nodejs.org/) and [npm](https://www.npmjs.com/) installed. Then run:
 
-```json
-"homepage": "https://имя_пользователя.github.io/имя_репозитория",
-"scripts": {
-  "build": "parcel build src/*.html --public-url /имя_репозитория/"
-},
-```
+    ```bash
+    npm install
+    ```
 
-На всякий случай стоит зайти в настройки репозитория `Settings` > `Pages` и убедиться что продакшен
-версии файлов раздаются из папки `/root` ветки `gh-pages`.
+4. **Start the Application:**
 
-Через какое-то время живую страницу можно будет посмотреть по адресу указанному в отредактированном
-свойстве `homepage`, например
-[https://goitacademy.github.io/parcel-project-template](https://goitacademy.github.io/parcel-project-template).
+    ```bash
+    npm start
+    ```
 
-## Файлы и папки
+    The app will be available at `http://localhost:3000` by default.
 
-- Все паршалы файлов стилей должны лежать в папке `src/sass` и импортироваться в
-  `src/sass/main.scss`
-- Изображения добавляйте в папку `src/images`, заранее оптимизировав их. Сборщик просто копирует
-  используемые изображения чтобы не нагружать систему оптимизацией картинок, так как на слабых
-  компьютерах это может занять много времени.
+## Usage
+
+Once the app is running, you can:
+
+- **Explore Flavors:** Navigate to the 'Flavors' section to view all available ice cream options.
+- **Manage Favorites:** Click the heart icon next to a flavor to add it to your favorites list.
+- **Search:** Use the search bar to find specific flavors.
+- **Get Recommendations:** Visit the 'Recommendations' page for suggestions based on your favorite flavors.
+
+## Contributing
+
+We welcome contributions to improve the Ice Cream App. Please follow these guidelines:
+
+1. Fork the repository.
+2. Create a new branch (`git checkout -b feature-branch`).
+3. Commit your changes (`git commit -am 'Add new feature'`).
+4. Push to the branch (`git push origin feature-branch`).
+5. Create a new Pull Request.
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## About the Developers
+
+The Ice Cream App was developed by the **BizGrowthMarketers** Dev team. 
+
+### BizGrowthMarketers Team
+
+BizGrowthMarketers is a passionate team of developers and marketers dedicated to creating innovative digital solutions. Our team consists of skilled professionals with expertise in web development, design, and marketing. We focus on delivering high-quality applications that meet the needs of modern users while incorporating best practices and cutting-edge technologies.
+
+**Our Core Team Members:**
+
+- **Bill Mico Malazarte** - Lead Developer
+  - Specializes in front-end development and user experience design.
+- **Percival Aceron & Cyfred Odarve** - Back-End Developer
+  - Expert in server-side programming and database management.
+- **Judielyn Pagente** - UX/UI Designer
+  - Responsible for creating intuitive and engaging interfaces.
+- **Jovelyn Molos** - Marketing Strategist
+  - Focuses on user acquisition and market research.
+
+For more information about our team and other projects, visit our [website](https://www.bizgrowthmarketers.com).
+
+---
+
+Feel free to reach out to us with any questions or feedback!
+
