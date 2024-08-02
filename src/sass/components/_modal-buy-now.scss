@@ -1,0 +1,50 @@
+/* Modal window for the "Order Service" button */
+.modal-buy-now {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  @media screen and (max-width: 1280px) {
+    max-width: 93.75vw;
+    width: 450px;
+    height: 93.75vh;
+    max-height: 450px;
+    overflow: auto;
+  }
+  max-width: 530px;
+  max-height: 480px;
+  padding: 40px;
+  background-color: #fff5f6;
+  border-radius: 20px;
+}
+
+/* Close button for the modal window */
+
+.close-btn-buy-now {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  width: 30px;
+  height: 30px;
+/* Close button for the modal window */
+  // border: 1px solid var(--accent-color);
+  border: none;
+  border-radius: 50%;
+  background-color: transparent;
+  padding: 0;
+/* Center the 'X' in the round border */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+
+  &:hover .close-btn-buy-now-icon,
+  &:focus .close-btn-buy-now-icon {
+    fill: var(--btn-color__base-hover);
+  }
+}
+  /* Smooth hover transition */
+.close-btn-buy-now-icon {
+  fill: var(--btn-color__base);
+  transition: fill var(--transition-timing) var(--transition-function);
+}
