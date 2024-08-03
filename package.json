@@ -3,10 +3,10 @@
   "version": "1.1.0",
   "description": "",
   "main": "index.js",
-  "homepage": "https://bizgrowthmarketers.tech/",
+  "homepage": "https://bizgrowthmarketers.tech/ice-cream-app/",
   "scripts": {
     "dev": "parcel src/*.html",
-    "build": "parcel build src/*.html --public-url /"
+    "build": "parcel build src/*.html --public-url /ice-cream-app/"
   },
   "repository": {
     "type": "git",
